@@ -5,13 +5,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 from PIL import Image
-image = Image.open('E:\OJT_DataAnalysis\World-Triathlon.jpeg')
-medals_21=pd.read_csv('E:\Dataset\Medals.csv')
-athelete_21=pd.read_csv('E:\Dataset\Athletes.csv')
+image = Image.open('World-Triathlon.jpeg')
+medals_21=pd.read_csv('Medals.csv')
+athelete_21=pd.read_csv('Athletes.csv')
 
-Gender_21=pd.read_csv('E:\Dataset\Genders.csv')
-teams_21=pd.read_csv('E:\Dataset\Teams.csv')
-coaches_21=pd.read_csv('E:\Dataset\Coaches.csv')
+Gender_21=pd.read_csv('Genders.csv')
+teams_21=pd.read_csv('Teams.csv')
+coaches_21=pd.read_csv('Coaches.csv')
 
 st.sidebar.title("Perfromance Analysis in Tokyo 2020")
 st.sidebar.image(image)
