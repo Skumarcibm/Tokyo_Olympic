@@ -111,7 +111,7 @@ if user=="Atheletes":
     colors=["r","g"]
     names=['Male','Female']
     plt.figure(figsize=(10,7))
-    plt.pie(dataset,labels=names,autopct='%1.1f%',textprops={'fontsize':15},colors=colors)
+    plt.pie(dataset,labels=names,autopct='%1.1f%',colors=colors)
     st.pyplot(plt.gcf())
     
 if user=="India vs America":
